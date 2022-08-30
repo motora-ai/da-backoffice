@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color: #414141;
+}
+
+@layer components {
+  .btn-dark-outiline {
+    @apply rounded-lg border border-zinc-400 py-1 px-2 text-gray-700;
+  }
+
+  .btn-dark {
+    @apply rounded-lg border border-zinc-800 py-1 px-2 text-white bg-zinc-700;
+  }
+
+  .input {
+    @apply p-2;
+    height: 42px;
+  }
+
+  .input-dark {
+    @apply rounded-lg border border-zinc-400;
+  }
+}

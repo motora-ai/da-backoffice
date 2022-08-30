@@ -1,0 +1,341 @@
+.icon {
+  display: flex;
+  /* width: 40px;
+  height: 40px; */
+  background: rgba($color: #000000, $alpha: 0.8);
+  mask-size: cover;
+}
+
+.icon-phosfore-sig-out {
+  mask: url(./svg/sig_out.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-phosfore-circles_four {
+  mask: url(./svg/circles_four.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-phosfore-command {
+  mask: url(./svg/command.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-phosfore-currency-circle-dollar {
+  mask: url(./svg/currency-circle-dollar.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+/* ============  Material  =========== */
+.icon-thermostat {
+  mask: url(./svg//thermostat.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+.icon-dashboard {
+  mask: url(./svg/dashboard.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-dashboard-fill {
+  mask: url(./svg/dashboard.fill.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-folder {
+  mask: url(./svg/folder.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-folder-fill {
+  mask: url(./svg/folder-fill.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-alert-error {
+  mask: url(./svg/alert_error.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-attach_money {
+  mask: url(./svg/attach_money.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-pay-fill {
+  mask: url(./svg/payment.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-bell-outline {
+  mask: url(./svg/bell_outline.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-boock-border {
+  mask: url(./svg/bookmark_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-boock-border-fill {
+  mask: url(./svg/bock_border-fill.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-boockmark {
+  mask: url(./svg/bookmark.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-cached {
+  mask: url(./svg/cached_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-close {
+  mask: url(./svg/close.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-delete-outlined {
+  mask: url(./svg/delete_outilined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-doniall {
+  mask: url(./svg/domiall.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-edite {
+  mask: url(./svg/editi_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-event-calendar {
+  mask: url(./svg/event_calendar.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-file-outiline {
+  mask: url(./svg/file_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-image {
+  mask: url(./svg/image_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-markunread-mailbox {
+  mask: url(./svg/markunread_mailbox.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-more-vert-outline {
+  mask: url(./svg/more_vert_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-schedule {
+  mask: url(./svg/schedule.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-schedule-fill {
+  mask: url(./svg/schedule-fill.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-search {
+  mask: url(./svg/search.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-settings-outilined {
+  mask: url(./svg/settings_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-visiblility-off {
+  mask: url(./svg/visibility_off.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-visiblility {
+  mask: url(./svg/visibility.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-water-drop {
+  mask: url(./svg/water_drop.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-add {
+  mask: url(./svg/add_outlined.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-list {
+  mask: url(./svg/format_list_bulleted.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-strean {
+  mask: url(./svg/view_stream.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-filter {
+  mask: url(./svg/filter_list_rounded.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-pick {
+  mask: url(./svg/pick.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-apps {
+  mask: url(./svg/apps_rounded.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-print {
+  mask: url(./svg/print.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-download {
+  mask: url(./svg/download.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-arrow-back {
+  mask: url(./svg/arrow_back.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+.icon-arrow_down {
+  mask: url(./svg/arrow_down.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+.icon-arrow_up {
+  mask: url(./svg/arrow_up.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-arrow-next {
+  mask: url(./svg/arrow_forward.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-remove {
+  mask: url(./svg/remove.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-remove-circle {
+  mask: url(./svg/remove_circlr.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-add-circle {
+  mask: url(./svg/add_circle_.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-data {
+  mask: url(./svg/data.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-stokk-fill {
+  mask: url(./svg/stock-fill.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-box-fill {
+  mask: url(./svg/box.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-expenses {
+  mask: url(./svg/expenses.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-employee {
+  mask: url(./svg/employee.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-timer {
+  mask: url(./svg/timer.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-gitlab {
+  mask: url(./svg/GitLab.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.icon-codetime {
+  mask: url(./svg/code-time.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
