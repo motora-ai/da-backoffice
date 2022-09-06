@@ -23,4 +23,62 @@ html {
   .input-dark {
     @apply rounded-lg border border-zinc-400;
   }
+
+  .box-limited {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .box-limited::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 3px;
+  }
+
+  /* Track */
+  .box-limited::-webkit-scrollbar-track {
+    background: #cccccc;
+  }
+
+  /* Handle */
+  .box-limited::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  .box-limited::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .page-wrapper {
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* 
+  .page-wrapper-md {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .page-wrapper-sm {
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .page-wrapper-xl {
+    margin: 0 auto;
+    max-width: 2000px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  } */
 }

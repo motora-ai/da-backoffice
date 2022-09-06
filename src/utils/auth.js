@@ -2,9 +2,7 @@ import api from "../serve/api";
 
 class Auth {
   static loggedIn() {
-    const r = !!localStorage.getItem("logged");
-    console.log("Res => ", r);
-    return r;
+    return !!localStorage.getItem("logged");
   }
 
   static async login(email, password) {
@@ -15,7 +13,6 @@ class Auth {
     try {
       //   const user = null;
       await api.post("/auth/local", body).then((res) => {
-        console.log("==> ", res);
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("user_id", res.data.user.id);
         localStorage.setItem("user_role", res.data.user.role);

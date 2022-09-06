@@ -30,6 +30,12 @@
   mask-size: 100%;
 }
 
+.icon-phosfore-car {
+  mask: url(./svg/car.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
 /* ============  Material  =========== */
 .icon-thermostat {
   mask: url(./svg//thermostat.svg);

@@ -47,6 +47,12 @@ export default {
         path: "/balance",
         icon: "icon-phosfore-currency-circle-dollar",
       },
+
+      {
+        name: "Vehicle",
+        path: "/vehicle",
+        icon: "icon-phosfore-car",
+      },
     ],
   }),
   created() {

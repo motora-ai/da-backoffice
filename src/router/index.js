@@ -5,7 +5,6 @@ const routes = [
   {
     path: "/login",
     name: "Login",
-    // component: LoginView,
     component: () =>
       import(/* webpackChunkName: "login" */ "../views/LoginView.vue"),
   },
@@ -28,6 +27,15 @@ const routes = [
             /* webpackChunkName: "login" */ "../modules/BalanceModule.vue"
           ),
       },
+      {
+        path: "/vehicle",
+        name: "Vehicle",
+        // component: LoginView,
+        component: () =>
+          import(
+            /* webpackChunkName: "login" */ "../modules/VehicleModule.vue"
+          ),
+      },
     ],
   },
 ];
@@ -38,10 +46,6 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  console.log(
-    "Ta aqui => ",
-    to.matched.some((record) => record.meta.requiresAuth)
-  );
   if (
     to.matched.some((record) => record.meta.requiresAuth) &&
     !Auth.loggedIn()

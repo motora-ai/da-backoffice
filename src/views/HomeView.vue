@@ -1,7 +1,7 @@
 <template>
   <div class="flex">
     <aside class="h-[100vh] w-[6rem]"><MainMenu /></aside>
-    <aside class="body-area h-[100vh] p-4">
+    <aside class="body-area h-[100vh] p-4 box-limited">
       <router-view></router-view>
     </aside>
   </div>
