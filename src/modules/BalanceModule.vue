@@ -41,6 +41,7 @@
           <Table class="w-full">
             <template v-slot:header>
               <tr class="">
+                <th>Identificador</th>
                 <th>Placa</th>
                 <th>Empresa</th>
                 <th>Instalação</th>
@@ -51,7 +52,12 @@
             <!-- <div class=""> -->
             <tbody class="border w-full">
               <tr v-for="(vehicle, i) in vehiclesFilteres" :key="i" class="p-1">
-                <td class="border-b text-center py-2">{{ vehicle.placa }}</td>
+                <td class="border-b text-center py-2">
+                  {{ vehicle.identificador }}
+                </td>
+                <td class="border-b text-center py-2">
+                  {{ vehicle.placa }}
+                </td>
                 <td class="border-b text-center py-2">
                   {{
                     companyMap.get(vehicle.company)
@@ -169,7 +175,8 @@ export default {
         empresa: this.companyMap.get(el.company)
           ? this.companyMap.get(el.company).name
           : "--",
-        veiculo: el.placa || "--",
+        veiculo_placa: el.placa || "--",
+        veiculo_identificador: el.identificador || "--",
         instaçacao: moment(el.device_install_date).format("DD/MM/YYYY"),
         desinstalacao: el.device_uninstall_date
           ? moment(el.device_uninstall_date).format("DD/MM/YYYY")

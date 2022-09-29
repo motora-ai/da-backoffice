@@ -7,21 +7,11 @@
       <form class="flex flex-col justify-end items-end">
         <label class="flex flex-col my-2">
           Email
-          <input
-            class="input-dark input my-1"
-            placeholder="teste"
-            type="email"
-            v-model="email"
-          />
+          <input class="input-dark input my-1" type="email" v-model="email" />
         </label>
         <label class="flex flex-col my-1">
           Senha
-          <input
-            class="input-dark input"
-            placeholder="teste"
-            type="password"
-            v-model="password"
-          />
+          <input class="input-dark input" type="password" v-model="password" />
         </label>
         <div class="mt-3">
           <button class="btn-dark" @click.prevent="login">Entrar</button>
