@@ -36,6 +36,7 @@
     <!-- <h1 class="text-lg mt-4 border-b p-2">Vehicles ({{ vehicles.length }})</h1> -->
 
     <section class="mt-4 py-4">
+      <h2>Resultado ({{ vehiclesFilteres.length }})</h2>
       <div class="flex w-full flex-wrap p-2 border rounded-[20px]">
         <div class="w-full p-2 h-[62vh] box-limited w-full">
           <Table class="w-full">

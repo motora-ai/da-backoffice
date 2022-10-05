@@ -21,7 +21,7 @@
     </ul>
 
     <!-- <h1 class="text-lg mt-4 border-b p-2">Vehicles ({{ vehicles.length }})</h1> -->
-
+    <h3>Resultado ({{ vehicles.lenght }})</h3>
     <section class="mt-4 py-4 h-[75vh] box-limited">
       <div class="flex w-full flex-wrap">
         <div v-for="(vehicle, i) in vehicles" :key="i" class="w-1/2 p-1">
