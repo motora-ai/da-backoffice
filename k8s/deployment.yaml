@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: da-backoffice
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    protocol: TCP
+    name: http
+  selector:
+    app: da-backoffice
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: da-backoffice
+  labels:
+    app: da-backoffice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: da-backoffice
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        app: da-backoffice
+        tier: frontend
+    spec:
+      imagePullSecrets:
+          - name: ghcr-secret
+      containers:
+      - image: ghcr.io/motora-ai/da-backoffice:0.0.2k
+        env:
+        - name: VUE_APP_API_BASE_URL
+          value: //backoffice.driveranalytics.com.br/api
+        name: da-backoffice
+        ports:
+        - containerPort: 80
+          name: da-backoffice
