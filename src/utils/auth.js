@@ -5,10 +5,11 @@ class Auth {
     return !!localStorage.getItem("logged");
   }
 
-  static async login(email, password) {
+  static async login(email, password, code) {
     const body = {
       username: email,
       password,
+      otp: code,
     };
     try {
       //   const user = null;
@@ -21,9 +22,10 @@ class Auth {
         // localStorage.setItem("token", "token");
         localStorage.setItem("logged", true);
       });
-      return true;
+      return 200;
     } catch (e) {
-      return false;
+      console.log("erro => ", e.response.status);
+      return e.response.status;
     }
   }
 
